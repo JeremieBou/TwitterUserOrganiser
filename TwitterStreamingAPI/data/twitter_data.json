@@ -1,0 +1,373 @@
+{
+	"created_at": "Tue May 17 21:42:46 +0000 2016",
+	"id": 732687831873773569,
+	"id_str": "732687831873773569",
+	"text": "Google vedel za ne\u010dedna po\u010detja Billa Cosbyja! #fakeheadlinebot #learntocode #makeatwitterbot #javascript",
+	"source": "\u003ca href=\"http:\/\/javascriptiseasy.com\" rel=\"nofollow\"\u003eJavaScript is Easy\u003c\/a\u003e",
+	"truncated": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 4382400263,
+		"id_str": "4382400263",
+		"name": "JavaScript is Easy",
+		"screen_name": "javascriptisez",
+		"location": "Your Console",
+		"url": "http:\/\/javascriptiseasy.com",
+		"description": "Get learning!",
+		"protected": false,
+		"verified": false,
+		"followers_cont": 138613,
+		"created_at": "Sat Dec 05 11:18:00 +0000 2015",
+		"utc_offset": -14400,
+		"time_zone": "Eastern Time (US & Canada)",
+		"geo_enabled": false,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"profile_background_color": "000000",
+		"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+		"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+		"profile_background_tile": false,
+		"profile_link_color": "FFCC4D",
+		"profile_sidebar_border_color": "000000",
+		"profile_sidebar_fill_color": "000000",
+		"profile_text_color": "000000",
+		"profile_use_background_image": false,
+		"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/673099606348070912\/xNxp4zOt_normal.jpg",
+		"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/673099606348070912\/xNxp4zOt_normal.jpg",
+		"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/4382400263\/1449314370",
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": null,
+		"follow_request_sent": null,
+		"notifications": null
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 0,
+	"favorite_count": 0,
+	"entities": {
+		"hashtags": [{
+			"text": "fakeheadlinebot",
+			"indices": [47, 63]
+		}, {
+			"text": "learntocode",
+			"indices": [64, 76]
+		}, {
+			"text": "makeatwitterbot",
+			"indices": [77, 93]
+		}, {
+			"text": "javascript",
+			"indices": [94, 105]
+		}],
+		"urls": [],
+		"user_mentions": [],
+		"symbols": []
+	},
+	"favorited": false,
+	"retweeted": false,
+	"filter_level": "low",
+	"lang": "sl",
+	"timestamp_ms": "1463521366457"
+},
+
+{
+	"created_at": "Tue May 17 21:42:50 +0000 2016",
+	"id": 732687849573744640,
+	"id_str": "732687849573744640",
+	"text": "RT @yourfaveisqueer: Ruby Lucas \"Red Riding Hood\" \u2022 Bisexual \n\nCanon\n\nTV Series: Once Upon A Time https:\/\/t.co\/B3PUGvqu06",
+	"source": "\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e",
+	"truncated": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 2770764145,
+		"id_str": "2770764145",
+		"name": "cee on the rocks",
+		"screen_name": "ceeyoutea",
+		"location": null,
+		"url": null,
+		"description": "a dedicated duckling.",
+		"protected": false,
+		"verified": false,
+		"followers_count": 159,
+		"friends_count": 116,
+		"listed_count": 5,
+		"favourites_count": 16590,
+		"statuses_count": 28012,
+		"created_at": "Tue Aug 26 18:13:24 +0000 2014",
+		"utc_offset": 14400,
+		"time_zone": "Yerevan",
+		"geo_enabled": true,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+		"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+		"profile_background_tile": false,
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/673192037458575360\/xLrtK8Za_normal.jpg",
+		"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/673192037458575360\/xLrtK8Za_normal.jpg",
+		"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2770764145\/1409080932",
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": null,
+		"follow_request_sent": null,
+		"notifications": null
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"retweeted_status": {
+		"created_at": "Fri Apr 22 23:25:25 +0000 2016",
+		"id": 723653969151586306,
+		"id_str": "723653969151586306",
+		"text": "Ruby Lucas \"Red Riding Hood\" \u2022 Bisexual \n\nCanon\n\nTV Series: Once Upon A Time https:\/\/t.co\/B3PUGvqu06",
+		"source": "\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 4633229006,
+			"id_str": "4633229006",
+			"name": "your fave is queer",
+			"screen_name": "yourfaveisqueer",
+			"location": "rules ",
+			"url": "https:\/\/twitter.com\/yourfaveisqueer\/status\/684841634651967489",
+			"description": "canon & headcanon queer characters \u2022 run by Brian, Courtney & Mary!DM requests (tell us if you would like to be tagged )",
+			"protected": false,
+			"verified": false,
+			"followers_count": 2277,
+			"friends_count": 555,
+			"listed_count": 4,
+			"favourites_count": 1582,
+			"statuses_count": 2320,
+			"created_at": "Tue Dec 22 20:35:47 +0000 2015",
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": true,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"profile_background_color": "F5F8FA",
+			"profile_background_image_url": "",
+			"profile_background_image_url_https": "",
+			"profile_background_tile": false,
+			"profile_link_color": "2B7BB9",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/728296137250103296\/He3zIMnQ_normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/728296137250103296\/He3zIMnQ_normal.jpg",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/4633229006\/1458426400",
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": null,
+			"follow_request_sent": null,
+			"notifications": null
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 57,
+		"favorite_count": 77,
+		"entities": {
+			"hashtags": [],
+			"urls": [],
+			"user_mentions": [],
+			"symbols": [],
+			"media": [{
+				"id": 723653962612674560,
+				"id_str": "723653962612674560",
+				"indices": [77, 100],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+				"url": "https:\/\/t.co\/B3PUGvqu06",
+				"display_url": "pic.twitter.com\/B3PUGvqu06",
+				"expanded_url": "http:\/\/twitter.com\/yourfaveisqueer\/status\/723653969151586306\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 1024,
+						"h": 574,
+						"resize": "fit"
+					},
+					"small": {
+						"w": 340,
+						"h": 190,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 336,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 723653962612674560,
+				"id_str": "723653962612674560",
+				"indices": [77, 100],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+				"url": "https:\/\/t.co\/B3PUGvqu06",
+				"display_url": "pic.twitter.com\/B3PUGvqu06",
+				"expanded_url": "http:\/\/twitter.com\/yourfaveisqueer\/status\/723653969151586306\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 1024,
+						"h": 574,
+						"resize": "fit"
+					},
+					"small": {
+						"w": 340,
+						"h": 190,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 336,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"filter_level": "low",
+		"lang": "en"
+	},
+	"is_quote_status": false,
+	"retweet_count": 0,
+	"favorite_count": 0,
+	"entities": {
+		"hashtags": [],
+		"urls": [],
+		"user_mentions": [{
+			"screen_name": "yourfaveisqueer",
+			"name": "your fave is queer",
+			"id": 4633229006,
+			"id_str": "4633229006",
+			"indices": [3, 19]
+		}],
+		"symbols": [],
+		"media": [{
+			"id": 723653962612674560,
+			"id_str": "723653962612674560",
+			"indices": [98, 121],
+			"media_url": "http:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+			"media_url_https": "https:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+			"url": "https:\/\/t.co\/B3PUGvqu06",
+			"display_url": "pic.twitter.com\/B3PUGvqu06",
+			"expanded_url": "http:\/\/twitter.com\/yourfaveisqueer\/status\/723653969151586306\/photo\/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 1024,
+					"h": 574,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 190,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 336,
+					"resize": "fit"
+				}
+			},
+			"source_status_id": 723653969151586306,
+			"source_status_id_str": "723653969151586306",
+			"source_user_id": 4633229006,
+			"source_user_id_str": "4633229006"
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 723653962612674560,
+			"id_str": "723653962612674560",
+			"indices": [98, 121],
+			"media_url": "http:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+			"media_url_https": "https:\/\/pbs.twimg.com\/media\/CgrvceXVEAA1W9o.jpg",
+			"url": "https:\/\/t.co\/B3PUGvqu06",
+			"display_url": "pic.twitter.com\/B3PUGvqu06",
+			"expanded_url": "http:\/\/twitter.com\/yourfaveisqueer\/status\/723653969151586306\/photo\/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 1024,
+					"h": 574,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 190,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 336,
+					"resize": "fit"
+				}
+			},
+			"source_status_id": 723653969151586306,
+			"source_status_id_str": "723653969151586306",
+			"source_user_id": 4633229006,
+			"source_user_id_str": "4633229006"
+		}]
+	},
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"filter_level": "low",
+	"lang": "en",
+	"timestamp_ms": "1463521370677"
+}
