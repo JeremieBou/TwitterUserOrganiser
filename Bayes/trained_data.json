@@ -1,0 +1,36 @@
+{
+	"header": {
+		"classCount": "0",
+		"totalOccurences": "0"
+	},
+	"classes": [{
+		"name": "china",
+		"occurences": "3",
+		"terms": [{
+			"term": "macao",
+			"count": "1"
+		}, {
+			"term": "chinese",
+			"count": "5"
+		}, {
+			"term": "beijing",
+			"count": "1"
+		}, {
+			"term": "shanghai",
+			"count": "1"
+		}]
+	}, {
+		"name": "japan",
+		"occurences": "1",
+		"terms": [{
+			"term": "chinese",
+			"count": "1"
+		}, {
+			"term": "japan",
+			"count": "1"
+		}, {
+			"term": "tokyo",
+			"count": "1"
+		}]
+	}]
+}
