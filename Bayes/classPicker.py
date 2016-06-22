@@ -6,7 +6,7 @@ def main():
     json_string = "  {  	\"header\": {    		\"classCount\": \"0\",    		\"totalOccurences\": \"0\"    	},    	\"classes\": [{    		\"name\": \"china\",    		\"occurences\": \"3\",    		\"terms\": [{    			\"term\": \"macao\",    			\"count\": \"1\"    		}, {    			\"term\": \"chinese\",   			\"count\": \"5\"    		}, {    			\"term\": \"beijing\",    			\"count\": \"1\"    		}, {    			\"term\": \"shanghai\",    			\"count\": \"1\"    		}]    	}, {    		\"name\": \"japan\",    		\"occurences\": \"1\",    		\"terms\": [{    			\"term\": \"chinese\",    			\"count\": \"1\"    		}, {    			\"term\": \"japan\",    			\"count\": \"1\"    		}, {    			\"term\": \"tokyo\",    			\"count\": \"1\"    		}]    	}]}        "
     
     parsed_json = json.loads(json_string)
-    test_json = json.load(open(test_data_path, "r")))
+    test_json = json.load(open(test_data_path, "r"))
     
     classes = parse_classes(parsed_json["classes"])
    
@@ -18,16 +18,16 @@ def guess_class(JSONDocument):
 	splitMessage = message.split(" ")
 	
 	for term in splitMessage:
+		print(term)
 
 def parse_classes(json_classes):
 	classes = {}
 	
+	print(json_classes[1])  
+	print("\n")
 	 
 	for json_class in json_classes:
-    	print(json_class)
-    	print("\n")
-    	
-    	data_class = JSONDataClass(json_class) 
+		data_class = JSONDataClass(json_class) 
     	
 	return classes
 	
@@ -37,7 +37,7 @@ def parse_class(json_class):
 	occurences = json_class["occurence"]
 	terms = json_class["terms"]
 	
-	data_class = DataClass("name")
+	data_class = JSONDataClass("name")
 	
 	return data_class
 	
@@ -47,6 +47,8 @@ def parse_class(json_class):
 class JSONDataClass:
 	classCount = 0
 	totalOccurences = 0
+	vocabulary = {}
+	vocabularySize = 0
 	
 	@staticmethod
 	def the_static_method(x):
@@ -63,31 +65,46 @@ class JSONDataClass:
 
 
 	def __init__(self, JSONString):
-		name = JSONString["name"]
-		occurences = JSONString["occurences"]
-		terms = JSONString["terms"]
+		JSONTerms = JSONString["terms"]
 		
-		
-		self.name = name
-		self.occurences = occurences
-		parseTerms(terms)
-		self.term_count = 0
+		self.name = JSONString["name"]
+		self.occurences = JSONString["occurences"]
+		self.terms = self.parseTerms(JSONTerms)
+		self.term_count = len(self.terms)
 
 	def parseTerms(self, JSONterms):
+		terms = {}
 		for term in JSONterms:
-			self.terms[term["term"]] = term["count"]
-			self.term_count += 1
-
+			inTerm = term["term"]
+			
+			terms[inTerm] = term["count"]
+			
+			print(term["term"])
+			
+			if inTerm not in JSONDataClass.vocabulary:
+				JSONDataClass.vocabulary[inTerm] = term["count"]
+				JSONDataClass.vocabularySize += 1
+				print("Adding term: " + term["term"])
+			else:
+				JSONDataClass.vocabulary[inTerm] += term["count"]
+				
+		print("vocabulary size: ")
+		print(JSONDataClass.vocabularySize)
+				
+		return terms
+		
 	def getTerms(self):
 		return self.terms
 
 	def getClassProbability(self, message):
-		pClass = self.occurences/totalOccurences
+		pClass = self.occurences/JSONDataClass.totalOccurences
+		splitMessage = message.split(" ")
+		for term in splitMessage:
+			pClass = pClass * self.getTermProbability(term)
 		
+	def getTermProbability(self, term):
+		return 0
 		
-	def getProbabilityWithTerms(self, termArray)
-		
-
 	def printSelf(self):
 		print("Name: " + self.name+"\n Occurences:" + str(self.occurences) + "\n Terms: " + str(self.terms))
 
