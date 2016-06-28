@@ -9,26 +9,35 @@ def main():
     test_json = json.load(open(test_data_path, "r"))
     
     classes = parse_classes(parsed_json["classes"])
+    guess_class(classes, test_json["message"])
    
-   
-def guess_class(JSONDocument):
-	username = JSONDocument["username"]
-	message = JSONDocument["message"]
-	
-	splitMessage = message.split(" ")
-	
-	for term in splitMessage:
-		print(term)
+def guess_class(classes, message):
+	print("guessing class:")
+	mostProbabable = classes[0]
+	for data_class in classes:
+		print(data_class)
+		class_prob = data_class.getClassProbability(message)
+		print("class probability for " + data_class.name + " : ")
+		print(class_prob)
+		
+		if class_prob > mostProbabable.getClassProbability(message):
+			mostProbabable = data_class
+	print("\"" + message + "\" is probability in")
+	print(mostProbabable.name)
 
 def parse_classes(json_classes):
-	classes = {}
+	classes = []
 	
 	print(json_classes[1])  
 	print("\n")
 	 
 	for json_class in json_classes:
 		data_class = JSONDataClass(json_class) 
-    	
+		classes.append(data_class)
+		
+	print("classes parsed, Lenght: ")
+	print(len(classes))
+    
 	return classes
 	
 	
@@ -38,9 +47,8 @@ def parse_class(json_class):
 	terms = json_class["terms"]
 	
 	data_class = JSONDataClass("name")
-	
 	return data_class
-	
+		
 	
 	
 
@@ -68,16 +76,18 @@ class JSONDataClass:
 		JSONTerms = JSONString["terms"]
 		
 		self.name = JSONString["name"]
-		self.occurences = JSONString["occurences"]
+		self.occurences = int(JSONString["occurences"])
 		self.terms = self.parseTerms(JSONTerms)
 		self.term_count = len(self.terms)
+		
+		JSONDataClass.classCount += 1
 
 	def parseTerms(self, JSONterms):
 		terms = {}
 		for term in JSONterms:
 			inTerm = term["term"]
 			
-			terms[inTerm] = term["count"]
+			terms[inTerm] = int(term["count"])
 			
 			print(term["term"])
 			
@@ -88,7 +98,7 @@ class JSONDataClass:
 			else:
 				JSONDataClass.vocabulary[inTerm] += term["count"]
 				
-		print("vocabulary size: ")
+		print("\nvocabulary size: ")
 		print(JSONDataClass.vocabularySize)
 				
 		return terms
@@ -97,14 +107,21 @@ class JSONDataClass:
 		return self.terms
 
 	def getClassProbability(self, message):
-		pClass = self.occurences/JSONDataClass.totalOccurences
+		pClass = float(self.occurences)/float(JSONDataClass.classCount)
 		splitMessage = message.split(" ")
 		for term in splitMessage:
+			termProb = self.getTermProbability(term)
+			
 			pClass = pClass * self.getTermProbability(term)
 		
-	def getTermProbability(self, term):
-		return 0
+		return pClass
 		
+	def getTermProbability(self, term):
+		if term in self.terms:
+			return (float(self.terms[term]) + 1)/(float(self.occurences) + float(JSONDataClass.vocabularySize))
+		else:
+			return (1)/float((self.occurences + JSONDataClass.vocabularySize))
+	
 	def printSelf(self):
 		print("Name: " + self.name+"\n Occurences:" + str(self.occurences) + "\n Terms: " + str(self.terms))
 
